@@ -1,3 +1,79 @@
-# HACC Cybersecurity | Tickets
+<!DOCTYPE html>
 
-## How to Submit a Ticket
+<html lang="en">
+<head>
+    <!-- HTML Meta Tags -->
+    <title>HACC Cybersecurity | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="XkQd1DJgoGfe1FCZ7QdDehtUq8AOPNd6ervoAC7cp2k" />
+    <meta name="author" content="ColDog Studios">
+    <meta name="description" content="Brief description from the Page">
+    <meta name="keywords" content="">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://hillsdalecybersecurity.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HACC Cybersecurity | Home">
+    <meta property="og:description" content="Brief description from the Page">
+    <meta property="og:image" content="https://hillsdalecybersecurity/assets/images/hacc/haccLogo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="hillsdalecybersecurity.github.io">
+    <meta property="twitter:url" content="https://hillsdalecybersecurity.github.io/">
+    <meta name="twitter:title" content="HACC Cybersecurity | Home">
+    <meta name="twitter:description" content="Brief description from the Page">
+    <meta name="twitter:image" content="https://hillsdalecybersecurity.github.io/assets/images/hacc/haccLogo.png">
+
+    <!-- Icons & Styling-->
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Scripts -->
+    <script src="/assets/js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><img src="/assets/images/hacc/haccLogo.png" height="76px"></label>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tickets/">Submit a Ticket</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+        
+        <label id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+
+    <div class="content">
+        <section id="Title">
+          <h1>Submit A Ticket</h1>
+        </section>
+
+
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/HillsdaleCybersecurity" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://youtube.com/channel/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com/hacccybersecurity" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/DigitalHacc" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <p class="copyright">Copyright © 2023 Hillsdale Area Career Center Cybersecurity - All Rights Reserved.</p>
+        <p class="copyright">Created by <a href="https://coldogstudios.github.io" target="_blank">ColDog Studios</a></p> 
+    </footer>
+</body>
+</html>
